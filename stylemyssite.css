@@ -1,0 +1,164 @@
+/* .middle{
+height: 200px;
+width: 200px;
+margin-left: 260px;
+border-width: 20px;
+border-style:solid;
+background-color: red;
+} */
+
+/* .bottom{
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    border-width: 10px;
+    border-style: solid;
+    background-color: blue;
+    } */
+
+.middle-container{
+     margin: 50px 0;
+}
+.bottom-container{
+     background-color:#66BFBF;
+     padding: 50px 0 10px;
+}
+.btn{
+    color:#11999E;
+}
+.top{
+    background-color: #E4F9F5;
+    padding-top:100px;
+    position:relative;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+
+}
+a:hover{
+    color:#EAF6F6;
+}
+body{
+    color:#40514E;
+    margin:0;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    text-align: center;
+    /*Text align: center  this will set up all element inside the container or parent element it at center everything inside that does not have a width. But it is a block element and it has a width then it will be in center by setting its margin: 0 auto 0 auto.*/
+}
+h1{
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    /*100% is equal to 16px  and 1em=16px */
+}  
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#057878;
+    padding-bottom: 10px;;
+} 
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+.bottom_cloud{
+    position: absolute;
+    left:250px;
+    bottom:300px;
+}
+.top_cloud{
+    position:absolute;
+    right:300px;
+    top: 40px; 
+}
+.intro{
+    width:40%;
+    margin:auto;
+}
+img.profile_pic{
+    width: 20%;
+}
+img.one{
+    /* height: 25%; */
+    width: 30%;
+    float:left;/*make text on left of image */
+    margin-right: 30px;
+}
+img.two{
+    /* height: 25%; */
+    width: 30%;
+    float:right;
+    margin-left:30px;
+}
+img.three{
+    /* height: 25%; */
+    width: 20%;
+}
+.skill-row{
+    width:50%;
+    margin:50px auto 50px auto;
+    text-align: left;
+}
+p{
+    line-height:2;
+}
+hr{
+    border:dotted  #0e7474 6px;
+    border-bottom: none;
+    width:4%;
+    margin: 25px auto;
+}
+.conatact-message{
+    width:40%;
+    margin:40px auto 60px;
+}
+.copyright{
+    color:#EAF6F6;
+    font-size: 1rem;
+    padding:20px 0;
+}
+.BUTTON_BKS {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 14px;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_BKS:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+ .get_touch{
+    margin:0px;
+    padding-bottom: 0;
+ }
